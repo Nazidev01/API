@@ -1,0 +1,21 @@
+.btn-breed{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    /*flex-direction: column;*/
+    padding: 10px 30px;
+    background: black;
+    color: white;
+    border: 1px solid rgba(242, 255, 255, 0.78);
+    border-radius: 15px;
+    font-size: 9px;
+}
+.dogs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px
+
+}

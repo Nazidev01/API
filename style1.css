@@ -1,0 +1,36 @@
+.user {
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.users{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.user button{
+    border: 2px solid yellow;
+    color: white;
+    padding: 10px 30px ;
+    background: black;
+    border-radius: 20%;
+    transition: .5s;
+    display: flex;
+    align-items: center;
+
+}
+.user button:hover{
+    transform: scale(1.1);
+    color: black;
+    background: yellow;
+
+}
+.user h1{
+    color: white;
+    margin:  0 10px ;
+
+}
